@@ -25,6 +25,8 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:10.1.2'
+	//implementation 'org.springframework.boot:spring-boot-starter-tomcat:3.0.0'
+	implementation 'javax.servlet:jstl:1.2'
 }
 
 tasks.named('test') {
